@@ -5,11 +5,11 @@
   "main": "./bin/staticgen.js",
   "preferGlobal": true,
   "bin": {
-    "unfold": "./bin/staticgen.js"
+    "staticgen": "./bin/staticgen.js"
   },
   "scripts": {
     "start": "node bin/staticgen.js",
-    "release": "np"
+    "np": "np"
   },
   "repository": {
     "type": "git",
