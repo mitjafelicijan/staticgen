@@ -25,9 +25,7 @@ Program
 
 
 if (Program.init) {
-  console.log(workingDirectory)
-  console.log(`${scriptDirectory}/empty-project.zip`)
-
+  console.log('> Extracting empty project into current folder ...');
   FS.createReadStream(`${scriptDirectory}/empty-project.zip`).pipe(Unzipper.Extract({ path: workingDirectory }));
 };
 

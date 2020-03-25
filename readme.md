@@ -1,6 +1,6 @@
 # Static site generator
 
-## Installing
+## Install
 
 ```bash
 [sudo] npm install -g @mitjafelicijan/staticgen
@@ -9,7 +9,8 @@
 ## Initialize new project
 
 ```bash
-cd your-project
+mkdir demo-project
+cd demo-project
 staticgen --init
 ```
 
@@ -54,8 +55,14 @@ I recommend using Browser Sync `[sudo] npm install -g browser-sync`.
 browser-sync ./public/ -w --no-notify --no-open
 ```
 
-## Hosting
+## Host your website
 
 The easiest way to get free reliable hosting is to use Firebase hosting.
 
 1. Go to [Firebase console](https://console.firebase.google.com/) and create new project.
+2. Install Firebase tool with `[sudo] npm install -g firebase-tools.`
+3. Login to Firebase with `firebase login`.
+4. Initialize project `firebase init` and select hosting and then use existing project and find your newly created one and then just press enter through all the options.
+5. Deploy by executing `firebase deploy`.
+
+You can also connect your own domain through web console. Firebase will take care of SSL for you.
