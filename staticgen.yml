@@ -1,0 +1,21 @@
+# folders
+content: content/
+public: public/
+templates: templates/
+static: static/
+assets: assets/
+
+# global settings
+title: Mitja Felicijan
+description: Fan of science fiction and dabbler in code
+author: Mitja Felicijan
+email: mitja.felicijan@gmail.com
+domain: https://mitjafelicijan.com
+twitter: @mitjafelicijan
+
+# use name of css file without .css extension
+# https://github.com/highlightjs/highlight.js/tree/master/src/styles
+highlightStye: github
+
+# google analytics
+ga: UA-12769079-10

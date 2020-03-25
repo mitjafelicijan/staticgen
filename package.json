@@ -1,0 +1,27 @@
+{
+  "name": "staticgen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitjafelicijan/staticgen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitjafelicijan/staticgen/issues"
+  },
+  "homepage": "https://github.com/mitjafelicijan/staticgen#readme",
+  "dependencies": {
+    "feed": "^4.1.0",
+    "fs-extra": "^9.0.0",
+    "showdown": "^1.9.1",
+    "twig": "^1.15.0",
+    "yaml": "^1.8.3"
+  }
+}
