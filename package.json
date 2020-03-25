@@ -1,18 +1,25 @@
 {
-  "name": "staticgen",
+  "name": "@mitjafelicijan/staticgen",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Static site generator",
+  "main": "./bin/staticgen.js",
+  "preferGlobal": true,
+  "bin": {
+    "unfold": "./bin/staticgen.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/staticgen.js",
+    "release": "np"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mitjafelicijan/staticgen.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "staticgen"
+  ],
+  "author": "Mitja Felicijan",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mitjafelicijan/staticgen/issues"
   },
@@ -23,5 +30,8 @@
     "showdown": "^1.9.1",
     "twig": "^1.15.0",
     "yaml": "^1.8.3"
+  },
+  "devDependencies": {
+    "np": "^6.2.0"
   }
 }
