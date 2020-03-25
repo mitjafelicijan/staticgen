@@ -1,6 +1,6 @@
 {
   "name": "@mitjafelicijan/staticgen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Static site generator",
   "main": "./bin/staticgen.js",
   "preferGlobal": true,
