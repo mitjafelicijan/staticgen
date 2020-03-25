@@ -25,10 +25,12 @@
   },
   "homepage": "https://github.com/mitjafelicijan/staticgen#readme",
   "dependencies": {
+    "commander": "^5.0.0",
     "feed": "^4.1.0",
     "fs-extra": "^9.0.0",
     "showdown": "^1.9.1",
     "twig": "^1.15.0",
+    "unzipper": "^0.10.10",
     "yaml": "^1.8.3"
   },
   "devDependencies": {
